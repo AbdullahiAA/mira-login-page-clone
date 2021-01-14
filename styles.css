@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif
+    /* font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; */
 }
 
 body {
+    background-color: #ede7f6;
     letter-spacing: .2px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
 }
 
 header {
     background-color: #1a237e;
-    display: block;
+    box-shadow: 0px 0px 10px 0px #ccc;
 }
 
 nav {
@@ -28,7 +30,7 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .site-name {
@@ -45,4 +47,25 @@ nav a {
 
 .site-name span {
     font-size: 1.5rem;
+}
+
+
+
+
+
+/* Media Queries */
+@media(max-width: 600px) {
+    nav {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 3.5em;
+    }
+
+    nav a {
+        font-size: .8rem;
+    }
+
+    .site-name span {
+        font-size: 1.2rem;
+    }
 }
