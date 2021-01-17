@@ -188,7 +188,12 @@ nav a {
     opacity: .95;
 }
 
-.forgot-password {
+.content__bottom {
+    font-size: .9rem;
+}
+
+.content__bottom,
+.content__bottom a {
     color: var(--dark-indigo);
 }
 
@@ -198,10 +203,6 @@ nav a {
 @media(max-width: 600px) {
     * {
         font-size: 15px;
-    }
-    
-    a {
-        font-size: .8rem;
     }
 
     nav {
